@@ -18,7 +18,7 @@ def set_config():
     """Set the heroku config variables"""
     secret_key = generate_key()
     local('heroku config:set SECRET_KEY=%s' % secret_key)
-    local('heroku config:set DJANGO_SETTINGS_MODULE=%s' % "{{project_name}}.settings.production")
+    local('heroku config:set DJANGO_SETTINGS_MODULE=%s' % "{{ project_name }}.settings.production")
 
 
 def generate_key():
