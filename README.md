@@ -34,15 +34,14 @@ Rest of this README will be copied to the generated project.
 
 {% endcomment %}
 
-# {{ project_name }}
+# [{{ project_name }}](https://{{ project_name }}.herokuapp.com)
 
 {{ project_name }} is a _short description_. It is built with [Python][0] using the [Django Web Framework][1].
 
 This project has the following basic apps:
 
-* App1 (short desc)
-* App2 (short desc)
-* App3 (short desc)
+* Accounts (This app keeps track of the user accounts)
+* Profile (This app creates the user profiles)
 
 ## Installation
 
