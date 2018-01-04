@@ -3,4 +3,4 @@
 # # Extra stuff required for production like Prod Database interfacing packages
 # psycopg2
 # gunicorn
-# dj-database-url
+# dj-static
