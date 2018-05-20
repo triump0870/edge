@@ -1,4 +1,4 @@
-from .base import *             # NOQA
+from .base import *  # NOQA
 import sys
 import logging.config
 
@@ -16,8 +16,8 @@ INSTALLED_APPS += (
     'debug_toolbar',)
 
 # Additional middleware introduced by debug toolbar
-MIDDLEWARE_CLASSES += (
-    'debug_toolbar.middleware.DebugToolbarMiddleware',)
+MIDDLEWARE += [
+    'debug_toolbar.middleware.DebugToolbarMiddleware', ]
 
 # Show emails to console in DEBUG mode
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
