@@ -13,6 +13,7 @@
 * Better Security with [12-Factor](http://12factor.net/) recommendations 
 * Logging/Debugging Helpers
 * Works on Python 2.7 or 3.4
+* Works on Django 1.11 but Django 2+ is not supported
 
 ## Quick start:
 
